@@ -449,11 +449,18 @@ def startTheGames(surface):
 		if texts ==1:
 			level = game(surface,10,7,15,stage,5,10,130,7)
 			if level == 1:
+				endGame = youPassed(surface)
 				whichEnd = endingSpeak(surface)
+				if endGame == 1:
+					count+=1
+				
 				if whichEnd == 1:
 					beatUpEnd(surface)
 				elif whichEnd == 2:
 					peaceEnd(surface)
+			else:
+				youLost(surface)
+
 	#ending here tomorow i guess
 def endChoice(surface):
 	done = False
