@@ -16,5 +16,6 @@ TO RUN GAME, RUN THE FILE CALLED: start_game.py
 
 
 i worked really hard on this game, drew all the pictures and made the end music
+i got the rap from Free Hip Hop Beats from soundcloud and socceristhebest and the bruh
 
 i hope you enjoy this game!
