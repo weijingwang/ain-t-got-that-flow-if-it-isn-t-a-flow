@@ -19,7 +19,7 @@ def showCredits(surface):
 	done = False
 	creditsCount = 1
 
-	url = "https://github.com/weijingwang/pyweek-26"
+	url = "https://github.com/weijingwang/ain-t-got-that-flow-if-it-isn-t-a-flow"
 
 	while not done:
 		for event in pg.event.get():
