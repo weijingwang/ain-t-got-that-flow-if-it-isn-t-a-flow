@@ -89,8 +89,8 @@ def gameIntro(surface):
                 person = scene3
                 sayWhat = 'com at me bro, show me what u got!!!'
             if skip == True or pictureCount == 11:
-                done = True
                 instructions(surface)
+                done = True
 
 
         surface.blit(backImage,(0,0))
@@ -118,8 +118,8 @@ def instructions(surface):
                 quit()
             if event.type == pg.KEYDOWN:
                 if event.key == pg.K_RETURN:
-                    done = True
                     startTheGames(surface)
+                    done = True
 
         surface.blit(stage,(0,0))
         surface.blit(pg.transform.scale(blackTexture, (800, 600)), (0, 0))
