@@ -396,10 +396,8 @@ def game(surface,maxGameRounds,minRapPointsPerRound,maxRapPointsPerRound,stage,l
 				print("my score is " +str(myScore)+" out of "+str(max_score))
 				if my_final_score >= 0.22:
 					print("pass")
-					done = True
 					return 1
 				else:
-					done = True
 					print("fail")
 					return 0
 

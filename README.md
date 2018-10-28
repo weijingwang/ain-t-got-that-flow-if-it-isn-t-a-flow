@@ -5,6 +5,7 @@ requires pygame and python 3
 
 run ```start_game.py``` to start game
 
+if the pointer is going too fast, replace ```game.py``` with ```game_patch.py```
 
 
 you are rapper and you perform rap by typeing 1 2 3 123 123 123 123 123 123 123 and then you rap and get points, and teach the other guy a lesson ocne and 4 all!
