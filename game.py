@@ -406,7 +406,7 @@ def game(surface,maxGameRounds,minRapPointsPerRound,maxRapPointsPerRound,stage,l
 def startTheGames(surface):
 	count = 1 #level 1
 	if count ==1:
-		level = game(surface,1,2,4,stage,1,30,150,2)
+		level = game(surface,1,2,4,stage,1,30,150,1)
 		#level1 = game(surface,maxGameRounds,minRapPointsPerRound,maxRapPointsPerRound,stage,levelNumber,minDistanceBetweenPoints,maxDistanceBetweenPoints,speed)
 		if level == 1:
 			endGame = youPassed(surface)
@@ -416,7 +416,7 @@ def startTheGames(surface):
 			youLost(surface)
 
 	if count ==2:
-		level = game(surface,5,3,6,stage,2,30,130,3)
+		level = game(surface,5,3,6,stage,2,30,130,2)
 		if level == 1:
 			endGame = youPassed(surface)
 			if endGame == 1:
@@ -425,7 +425,7 @@ def startTheGames(surface):
 			youLost(surface)
 
 	if count ==3:
-		level = game(surface,5,5,7,stage,3,20,130,4)
+		level = game(surface,5,5,7,stage,3,20,130,2)
 		if level == 1:
 			endGame = youPassed(surface)
 			if endGame == 1:
@@ -434,7 +434,7 @@ def startTheGames(surface):
 			youLost(surface)
 
 	if count ==4:
-		level = game(surface,7,6,9,stage,4,20,130,4)
+		level = game(surface,7,6,9,stage,4,20,130,3)
 		if level == 1:
 			endGame = youPassed(surface)
 			if endGame == 1:
@@ -445,7 +445,7 @@ def startTheGames(surface):
 	if count ==5:
 		texts = lastRound(surface)
 		if texts ==1:
-			level = game(surface,10,5,10,stage,5,15,130,4)
+			level = game(surface,7,5,10,stage,5,15,130,3)
 			if level == 1:
 				endGame = youPassed(surface)
 				whichEnd = endingSpeak(surface)
